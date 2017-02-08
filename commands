@@ -17,7 +17,7 @@ ssh
 #configure terminal
 #ip domain name domain.local
 #crypto key generate rsa
-#username admin privilege 15 secret Pa$$w0rd
+#username admin privilege 15 password Pa$$w0rd
 #ip ssh version 2
 #line vty 0 4
   #transport input ssh
