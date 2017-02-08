@@ -10,6 +10,7 @@ ip
 #exit
 #exit
 #show ip interface brief
+#wr
 ================
 ssh
 ================
@@ -20,6 +21,7 @@ ssh
 #ip ssh version 2
 #line vty 0 4
   #transport input ssh
-  №login local
+  #login local
 #exit
+#wr
 
