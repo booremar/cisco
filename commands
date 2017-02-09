@@ -51,4 +51,4 @@ snmp v2
 #snmp-server community public_deny deny_any
 #snmp-server community public_permit permit_any
 #exit
-#show snmp group
+#show snmp community
