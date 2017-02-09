@@ -48,7 +48,7 @@ access-list
 snmp v2
 ================================
 #configure terminal
-#snmp-server community public_deny access deny_any
-#snmp-server community public_permit access permit_any
+#snmp-server community public_deny deny_any
+#snmp-server community public_permit permit_any
 #exit
 #show snmp group
