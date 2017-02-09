@@ -24,4 +24,7 @@ ssh
   #login local
 #exit
 #wr
-
+================
+snmp
+================
+snmp-server community public RO
