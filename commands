@@ -35,5 +35,9 @@ snmp v1
 ================
 snmp v2
 ================
+#show snmp engineID
+#<ID>
 #configure terminal
 #snmp-server group qagroup v2 access
+#snmp-server engineID local <ID>
+#snmp-server user qauser qagroup v2 access
