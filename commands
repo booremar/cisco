@@ -33,6 +33,18 @@ snmp v1
 #exit
 #show snmp group
 ================
+access-list
+================
+#configure terminal
+#ip address-list standard deny_any
+  #deny any
+  #exit
+#ip address-list standard permint_any
+  #permit any
+  #exit
+ #exit
+ #show access-lists
+================
 snmp v2
 ================
 #show snmp engineID
