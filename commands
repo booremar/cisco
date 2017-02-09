@@ -1,6 +1,6 @@
-================
+================================
 ip
-================
+================================
 #show interfaces
 #configure terminal
 #interface oob
@@ -11,9 +11,9 @@ ip
 #exit
 #show ip interface brief
 #wr
-================
+================================
 ssh
-================
+================================
 #configure terminal
 #ip domain name domain.local
 #crypto key generate rsa
@@ -24,17 +24,17 @@ ssh
   #login local
 #exit
 #wr
-================
+================================
 snmp v1
-================
+================================
 #configure terminal
 #snmp-server community public RO
 #snmp-server community public1 RO
 #exit
 #show snmp group
-================
+================================
 access-list
-================
+================================
 #configure terminal
 #ip address-list standard deny_any
   #deny any
@@ -44,12 +44,11 @@ access-list
   #exit
  #exit
  #show access-lists
-================
+================================
 snmp v2
-================
-#show snmp engineID
-#<ID>
+================================
 #configure terminal
-#snmp-server group qagroup v2 access
-#snmp-server engineID local <ID>
-#snmp-server user qauser qagroup v2 access
+#snmp-server group permint_any v2c access permint_any
+#snmp-server group deny_any v2c access deny_any
+#exit
+#show snmp group
