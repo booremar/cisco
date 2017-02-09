@@ -25,6 +25,15 @@ ssh
 #exit
 #wr
 ================
-snmp
+snmp v1
 ================
-snmp-server community public RO
+#configure terminal
+#snmp-server community public RO
+#snmp-server community public1 RO
+#exit
+#show snmp group
+================
+snmp v2
+================
+#configure terminal
+#snmp-server group qagroup v2 access
