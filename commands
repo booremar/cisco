@@ -42,8 +42,8 @@ access-list
 #ip address-list standard permint_any
   #permit any
   #exit
- #exit
- #show access-lists
+#exit
+#show access-lists
 ================================
 snmp v2
 ================================
