@@ -19,6 +19,7 @@ ssh
 #crypto key generate rsa
 #username admin privilege 15 password Pa$$w0rd
 #ip ssh version 2
+#ip ssh server
 #line vty 0 4
   #transport input ssh
   #login local
