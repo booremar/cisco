@@ -53,3 +53,9 @@ snmp v2
 #snmp-server community public_permit permit_any
 #exit
 #show snmp community
+================================
+syslog
+================================
+#configure terminal
+#logging 192.168.0.1
+#logging trap
