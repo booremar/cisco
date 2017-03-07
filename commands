@@ -57,8 +57,9 @@ snmp v2
 snmp traps
 ================================
 #configure terminal
-#snmps-sever enable traps syslog
-#snmps-sever enable traps tty
+#snmp-sever enable traps syslog
+#snmp-sever enable traps tty
+#snmp-server host 192.168.0.1 traps 2c
 ================================
 syslog
 ================================
