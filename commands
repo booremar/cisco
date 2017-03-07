@@ -54,6 +54,12 @@ snmp v2
 #exit
 #show snmp community
 ================================
+snmp traps
+================================
+#configure terminal
+#snmps-sever enable traps syslog
+#snmps-sever enable traps tty
+================================
 syslog
 ================================
 #configure terminal
